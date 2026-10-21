@@ -83,6 +83,13 @@ going into the `bench/` folder and then executing `mix bench.encode` and `mix be
 A HTML report of the benchmarks (after their execution) can be found in
 `bench/output/encode.html` and `bench/output/decode.html` respectively.
 
+## Running the tests
+
+```sh
+mix deps.get
+mix test
+```
+
 ## Differences to Poison
 
 Jason has a couple feature differences compared to Poison.
